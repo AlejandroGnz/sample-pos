@@ -1,6 +1,7 @@
 'use strict'
 
 const userResource = require('../controllers/user/');
+const User = require('../models/user');
 
 module.exports = (app) => {
 
