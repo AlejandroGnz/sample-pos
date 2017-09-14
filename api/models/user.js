@@ -20,6 +20,7 @@ const userSchema = new Schema({
     type: 'Number',
     required: 'you should enter the dni'
   },
+  paymentMethods: [{type: Schema.Types.ObjectId}],
   create_date: {
     type: Date,
     default: Date.now
